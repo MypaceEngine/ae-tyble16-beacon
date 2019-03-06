@@ -1,0 +1,269 @@
+(pcb C:\Users\kanno\Desktop\ibeacon2\iBeacon.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "4.0.1-stable")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  146750 -101750  146775 -110450  147359 -112252  148285 -113905
+            149514 -115347  151001 -116521  152689 -117382  154511 -117899
+            156400 -118050  164600 -118030  166936 -117658  169164 -116867
+            171213 -115689  173016 -114160  174514 -112332  175658 -110263
+            176410 -108023  176747 -105683  176656 -103321  176142 -101014
+            175220 -98837.2  173921 -96862.4  172287 -95153.9  170373 -93767.8
+            168240 -92749.3  165958 -92131.8  163602 -91935.5  161250 -92166.9
+            158978 -92818.4  156860 -93868.6  154966 -95283.2  153359 -97015.9
+            152089 -99009.9  151200 -101200  151194 -101300  151172 -101388
+            151135 -101471  151085 -101547  151022 -101612  150949 -101665
+            150867 -101705  150780 -101730  150690 -101740  146750 -101750
+            146750 -101750)
+    )
+    (plane "Net-(Battery1-Pad2)" (polygon F.Cu 0  146800 -91950  176750 -91850  176700 -118650  146750 -118700
+            146800 -91950))
+    (plane "Net-(Battery1-Pad2)" (polygon B.Cu 0  176700 -118650  146750 -118700  146800 -92000  146800 -91950
+            176750 -91850  176700 -118650))
+    (via "Via[0-1]_600:400_um")
+    (rule
+      (width 500)
+      (clearance 200.1)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component Pin_Headers:Pin_Header_Angled_1x02_Pitch2.54mm
+      (place P2 169000 -111025 front 180 (PN CONN_01X02))
+      (place P1 152300 -108525 front 180 (PN CONN_01X02))
+    )
+    (component Pin_Headers:Pin_Header_Angled_1x02_Pitch2.54mm::1
+      (place P3 168975 -101415 front 180 (PN CONN_01X02))
+    )
+    (component "AE-TYBLE16:AE-TYBLE16"
+      (place IC1 160500 -106300 front 180 (PN "AE-TYBLE16"))
+    )
+    (component "Battery_Holders:Keystone_104_1x23mm-CoinCell"
+      (place Battery1 148501 -105004 back 180 (PN CONN_01X02))
+    )
+    (component LEDs:LED_1206_HandSoldering
+      (place D1 172925 -108300 front 90 (PN LED))
+    )
+    (component Resistors_SMD:R_1206_HandSoldering
+      (place R1 172925 -101425 front 90 (PN R))
+    )
+    (component Mounting_Holes:MountingHole_2.2mm_M2_DIN965
+      (place REF** 149750 -111600 front 0 (PN MountingHole_2.2mm_M2_DIN965))
+    )
+  )
+  (library
+    (image Pin_Headers:Pin_Header_Angled_1x02_Pitch2.54mm
+      (outline (path signal 120  -1270 0  -1270 1270))
+      (outline (path signal 120  -1270 1270  0 1270))
+      (outline (path signal 50  -1800 1800  -1800 -4350))
+      (outline (path signal 50  -1800 -4350  10550 -4350))
+      (outline (path signal 50  10550 -4350  10550 1800))
+      (outline (path signal 50  10550 1800  -1800 1800))
+      (pin Rect[A]Pad_1700x1700_um 1 0 0)
+      (pin Oval[A]Pad_1700x1700_um 2 0 -2540)
+    )
+    (image Pin_Headers:Pin_Header_Angled_1x02_Pitch2.54mm::1
+      (outline (path signal 120  -1270 0  -1270 1270))
+      (outline (path signal 120  -1270 1270  0 1270))
+      (outline (path signal 50  -1800 1800  -1800 -4350))
+      (outline (path signal 50  -1800 -4350  10550 -4350))
+      (outline (path signal 50  10550 -4350  10550 1800))
+      (outline (path signal 50  10550 1800  -1800 1800))
+      (pin Rect[A]Pad_1700x1700_um 1 -25 0)
+      (pin Oval[A]Pad_1700x1700_um 2 0 -2540)
+    )
+    (image "AE-TYBLE16:AE-TYBLE16"
+      (outline (path signal 150  -4150 11750  -4150 -11750))
+      (outline (path signal 150  -4150 -11750  4150 -11750))
+      (outline (path signal 150  4150 -11750  4150 11750))
+      (outline (path signal 150  4150 11750  -4150 11750))
+      (pin Rect[T]Pad_3000x1500_um 12 4750 -320)
+      (pin Rect[T]Pad_3000x1500_um 16 4750 -10480)
+      (pin Rect[T]Pad_3000x1500_um 15 4750 -7940)
+      (pin Rect[T]Pad_3000x1500_um 14 4750 -5400)
+      (pin Rect[T]Pad_3000x1500_um 13 4750 -2860)
+      (pin Rect[T]Pad_3000x1500_um 11 4750 2220)
+      (pin Rect[T]Pad_3000x1500_um 10 4750 4760)
+      (pin Rect[T]Pad_3000x1500_um 9 4750 7300)
+      (pin Rect[T]Pad_3000x1500_um 1 -4750 7300)
+      (pin Rect[T]Pad_3000x1500_um 2 -4750 4760)
+      (pin Rect[T]Pad_3000x1500_um 3 -4750 2220)
+      (pin Rect[T]Pad_3000x1500_um 5 -4750 -2860)
+      (pin Rect[T]Pad_3000x1500_um 6 -4750 -5400)
+      (pin Rect[T]Pad_3000x1500_um 7 -4750 -7940)
+      (pin Rect[T]Pad_3000x1500_um 8 -4750 -10480)
+      (pin Rect[T]Pad_3000x1500_um 4 -4750 -320)
+    )
+    (image "Battery_Holders:Keystone_104_1x23mm-CoinCell"
+      (outline (path signal 120  -1450 -1800  -1450 -3000))
+      (outline (path signal 50  -1750 3250  2150 3250))
+      (outline (path signal 50  -1750 -3250  2150 -3250))
+      (outline (path signal 50  -1750 -3250  -1750 3250))
+      (outline (path signal 120  -1450 3000  2150 3000))
+      (outline (path signal 120  -1450 1800  -1450 3000))
+      (outline (path signal 120  -1450 -3000  2150 -3000))
+      (outline (path signal 100  2150 2900  -900 2900))
+      (outline (path signal 100  -900 -2900  2150 -2900))
+      (outline (path signal 100  -1300 2500  -1300 -2500))
+      (outline (path signal 100  0 -1300  16200 -1300))
+      (outline (path signal 100  16200 1300  0 1300))
+      (outline (path signal 100  0 1300  0 -1300))
+      (outline (path signal 100  23698.2 -7848.6  24526.4 -8613.3))
+      (outline (path signal 100  23723.6 7848.6  24526.4 8600.6))
+      (pin Round[A]Pad_3000_um 2 20490 0)
+      (pin Rect[A]Pad_3000x3000_um 1 0 0)
+    )
+    (image LEDs:LED_1206_HandSoldering
+      (outline (path signal 120  -3100 950  -3100 -950))
+      (outline (path signal 100  -400 0  200 400))
+      (outline (path signal 100  200 400  200 -400))
+      (outline (path signal 100  200 -400  -400 0))
+      (outline (path signal 100  -450 400  -450 -400))
+      (outline (path signal 100  -1600 -800  -1600 800))
+      (outline (path signal 100  1600 -800  -1600 -800))
+      (outline (path signal 100  1600 800  1600 -800))
+      (outline (path signal 100  -1600 800  1600 800))
+      (outline (path signal 120  -3100 -950  1600 -950))
+      (outline (path signal 120  -3100 950  1600 950))
+      (outline (path signal 50  -3250 1110  3250 1110))
+      (outline (path signal 50  -3250 1110  -3250 -1100))
+      (outline (path signal 50  3250 -1100  3250 1110))
+      (outline (path signal 50  3250 -1100  -3250 -1100))
+      (pin Rect[T]Pad_2000x1700_um 1 -2000 0)
+      (pin Rect[T]Pad_2000x1700_um 2 2000 0)
+    )
+    (image Resistors_SMD:R_1206_HandSoldering
+      (outline (path signal 100  -1600 -800  -1600 800))
+      (outline (path signal 100  1600 -800  -1600 -800))
+      (outline (path signal 100  1600 800  1600 -800))
+      (outline (path signal 100  -1600 800  1600 800))
+      (outline (path signal 120  1000 -1070  -1000 -1070))
+      (outline (path signal 120  -1000 1070  1000 1070))
+      (outline (path signal 50  -3250 1110  3250 1110))
+      (outline (path signal 50  -3250 1110  -3250 -1100))
+      (outline (path signal 50  3250 -1100  3250 1110))
+      (outline (path signal 50  3250 -1100  -3250 -1100))
+      (pin Rect[T]Pad_2000x1700_um 1 -2000 0)
+      (pin Rect[T]Pad_2000x1700_um 2 2000 0)
+    )
+    (image Mounting_Holes:MountingHole_2.2mm_M2_DIN965
+      (outline (path signal 150  1900 0  1807.01 -587.132  1537.13 -1116.79  1116.79 -1537.13
+            587.132 -1807.01  0 -1900  -587.132 -1807.01  -1116.79 -1537.13
+            -1537.13 -1116.79  -1807.01 -587.132  -1900 0  -1807.01 587.132
+            -1537.13 1116.79  -1116.79 1537.13  -587.132 1807.01  0 1900
+            587.132 1807.01  1116.79 1537.13  1537.13 1116.79  1807.01 587.132))
+      (outline (path signal 50  2150 0  2044.77 -664.387  1739.39 -1263.74  1263.74 -1739.39
+            664.387 -2044.77  0 -2150  -664.387 -2044.77  -1263.74 -1739.39
+            -1739.39 -1263.74  -2044.77 -664.387  -2150 0  -2044.77 664.387
+            -1739.39 1263.74  -1263.74 1739.39  -664.387 2044.77  0 2150
+            664.387 2044.77  1263.74 1739.39  1739.39 1263.74  2044.77 664.387))
+      (keepout "" (circle F.Cu 2200))
+      (keepout "" (circle B.Cu 2200))
+    )
+    (padstack Round[A]Pad_3000_um
+      (shape (circle F.Cu 3000))
+      (shape (circle B.Cu 3000))
+      (attach off)
+    )
+    (padstack Oval[A]Pad_1700x1700_um
+      (shape (path F.Cu 1700  0 0  0 0))
+      (shape (path B.Cu 1700  0 0  0 0))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_2000x1700_um
+      (shape (rect F.Cu -1000 -850 1000 850))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_3000x3000_um
+      (shape (rect F.Cu -1500 -1500 1500 1500))
+      (shape (rect B.Cu -1500 -1500 1500 1500))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_3000x1500_um
+      (shape (rect F.Cu -1500 -750 1500 750))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1700x1700_um
+      (shape (rect F.Cu -850 -850 850 850))
+      (shape (rect B.Cu -850 -850 850 850))
+      (attach off)
+    )
+    (padstack "Via[0-1]_600:400_um"
+      (shape (circle F.Cu 600))
+      (shape (circle B.Cu 600))
+      (attach off)
+    )
+  )
+  (network
+    (net "Net-(Battery1-Pad2)"
+      (pins P1-2 IC1-12 Battery1-2 D1-1)
+    )
+    (net "Net-(IC1-Pad5)"
+      (pins P3-1 IC1-5)
+    )
+    (net "Net-(IC1-Pad3)"
+      (pins P2-2 IC1-3)
+    )
+    (net "Net-(IC1-Pad2)"
+      (pins P2-1 IC1-2)
+    )
+    (net "Net-(IC1-Pad6)"
+      (pins P3-2 IC1-6)
+    )
+    (net "Net-(IC1-Pad15)"
+      (pins IC1-15 R1-2)
+    )
+    (net "Net-(IC1-Pad7)"
+      (pins IC1-7 IC1-8)
+    )
+    (net "Net-(Battery1-Pad1)"
+      (pins P1-1 IC1-11 Battery1-1)
+    )
+    (net "Net-(D1-Pad2)"
+      (pins D1-2 R1-1)
+    )
+    (class kicad_default "" "Net-(Battery1-Pad1)" "Net-(Battery1-Pad2)" "Net-(D1-Pad2)"
+      "Net-(IC1-Pad1)" "Net-(IC1-Pad10)" "Net-(IC1-Pad13)" "Net-(IC1-Pad14)"
+      "Net-(IC1-Pad15)" "Net-(IC1-Pad16)" "Net-(IC1-Pad2)" "Net-(IC1-Pad3)"
+      "Net-(IC1-Pad4)" "Net-(IC1-Pad5)" "Net-(IC1-Pad6)" "Net-(IC1-Pad7)"
+      "Net-(IC1-Pad9)"
+      (circuit
+        (use_via Via[0-1]_600:400_um)
+      )
+      (rule
+        (width 500)
+        (clearance 200.1)
+      )
+    )
+    (class Wide
+      (circuit
+        (use_via Via[0-1]_600:400_um)
+      )
+      (rule
+        (width 500)
+        (clearance 200.1)
+      )
+    )
+  )
+  (wiring
+  )
+)

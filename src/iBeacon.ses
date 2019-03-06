@@ -1,0 +1,197 @@
+
+(session iBeacon.ses
+  (base_design iBeacon.dsn)
+  (placement
+    (resolution um 10)
+    (component Pin_Headers:Pin_Header_Angled_1x02_Pitch2.54mm
+      (place P2 1690000 -1110250 front 180)
+      (place P1 1523000 -1085250 front 180)
+    )
+    (component Pin_Headers:Pin_Header_Angled_1x02_Pitch2.54mm::1
+      (place P3 1689750 -1014150 front 180)
+    )
+    (component "AE-TYBLE16:AE-TYBLE16"
+      (place IC1 1605000 -1063000 front 180)
+    )
+    (component "Battery_Holders:Keystone_104_1x23mm-CoinCell"
+      (place Battery1 1485010 -1050040 back 180)
+    )
+    (component LEDs:LED_1206_HandSoldering
+      (place D1 1729250 -1083000 front 90)
+    )
+    (component Resistors_SMD:R_1206_HandSoldering
+      (place R1 1729250 -1014250 front 90)
+    )
+    (component Mounting_Holes:MountingHole_2.2mm_M2_DIN965
+      (place REF** 1497500 -1116000 front 0)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution um 10)
+    (parser
+      (host_cad "KiCad's Pcbnew")
+      (host_version "4.0.1-stable")
+    )
+    (library_out 
+      (padstack "Via[0-1]_600:400_um"
+        (shape
+          (circle F.Cu 6000 0 0)
+        )
+        (shape
+          (circle B.Cu 6000 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net "Net-(IC1-Pad5)"
+        (wire
+          (path F.Cu 5000
+            1690000 -1014150
+            1690000 -1027650
+          )
+        )
+        (wire
+          (path F.Cu 5000
+            1652500 -1034400
+            1672500 -1034400
+          )
+        )
+        (wire
+          (path F.Cu 5000
+            1672500 -1034400
+            1679250 -1027650
+            1690000 -1027650
+          )
+        )
+      )
+      (net "Net-(IC1-Pad3)"
+        (wire
+          (path F.Cu 5000
+            1690000 -1084850
+            1676500 -1084850
+          )
+        )
+        (wire
+          (path F.Cu 5000
+            1652500 -1085200
+            1676150 -1085200
+            1676500 -1084850
+          )
+        )
+      )
+      (net "Net-(IC1-Pad2)"
+        (wire
+          (path F.Cu 5000
+            1690000 -1110250
+            1676500 -1110250
+          )
+        )
+        (wire
+          (path F.Cu 5000
+            1652500 -1110600
+            1676150 -1110600
+            1676500 -1110250
+          )
+        )
+      )
+      (net "Net-(IC1-Pad6)"
+        (wire
+          (path F.Cu 5000
+            1652500 -1009000
+            1672500 -1009000
+          )
+        )
+        (wire
+          (path F.Cu 5000
+            1672500 -1009000
+            1672500 -1006000
+            1689750 -988750
+          )
+        )
+      )
+      (net "Net-(IC1-Pad15)"
+        (wire
+          (path F.Cu 5000
+            1729250 -994250
+            1715750 -994250
+          )
+        )
+        (wire
+          (path F.Cu 5000
+            1715750 -994250
+            1715750 -992563
+            1669335 -946148
+            1625306 -946148
+            1587854 -983600
+            1557500 -983600
+          )
+        )
+      )
+      (net "Net-(IC1-Pad7)"
+        (wire
+          (path F.Cu 5000
+            1652500 -983600
+            1632500 -983600
+          )
+        )
+        (wire
+          (path F.Cu 5000
+            1652500 -958200
+            1632500 -958200
+          )
+        )
+        (wire
+          (path F.Cu 5000
+            1632500 -958200
+            1632500 -983600
+          )
+        )
+      )
+      (net "Net-(Battery1-Pad1)"
+        (wire
+          (path F.Cu 5000
+            1523000 -1085250
+            1509500 -1085250
+          )
+        )
+        (wire
+          (path F.Cu 5000
+            1485010 -1070040
+            1494290 -1070040
+            1509500 -1085250
+          )
+        )
+        (wire
+          (path F.Cu 5000
+            1485010 -1050040
+            1485010 -1070040
+          )
+        )
+        (wire
+          (path F.Cu 5000
+            1557500 -1085200
+            1537500 -1085200
+          )
+        )
+        (wire
+          (path F.Cu 5000
+            1523000 -1085250
+            1537450 -1085250
+            1537500 -1085200
+          )
+        )
+      )
+      (net "Net-(D1-Pad2)"
+        (wire
+          (path F.Cu 5000
+            1729250 -1034250
+            1729250 -1063000
+          )
+        )
+      )
+    )
+  )
+)
