@@ -1,4 +1,4 @@
-update=2019/03/01 22:42:47
+update=2019/03/31 22:14:59
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,3 +59,4 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=C:/kicad_library/library/AE-TYBLE16.pretty/ae-tyble16
+LibName31=C:/kicad_library/library/ATTINY10-TSHR.pretty/ATTINY10-TSHR
