@@ -1,4 +1,4 @@
-update=2019/03/31 22:14:59
+update=2019/04/06 0:23:42
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,3 +60,4 @@ LibName28=contrib
 LibName29=valves
 LibName30=C:/kicad_library/library/AE-TYBLE16.pretty/ae-tyble16
 LibName31=C:/kicad_library/library/ATTINY10-TSHR.pretty/ATTINY10-TSHR
+LibName32=C:/kicad_library/library/12BH403-GR.pretty/12BH403-GR
